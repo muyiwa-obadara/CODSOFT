@@ -8,27 +8,6 @@ ___
 [Contact](https://www.codsoft.in/contact-us)
 
 This repository contains all the tasks associates with the Data Science virtual internship.
-<style>
-
-    li {
-        border-top: 1px solid #665599;
-        display: block;
-        background-color: #ddd;
-        padding: 15px;
-        font-size: 1.2rem;"
-        margin-bottom: 5px;
-    }
-    li:hover{
-        background-color: #ffeeff;
-    }
-
-    a {
-        color: #5612dd;
-        font-size: 1.2em;
-        display:block;
-        width: 100%;
-    }
-</style>
 
 - [Task 1](https://github.com/muyiwa-obadara/CODSOFT/tree/main/titanic)
 - [Task 2](https://github.com/muyiwa-obadara/CODSOFT/tree/main/movie_rating)
