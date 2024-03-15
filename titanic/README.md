@@ -7,7 +7,7 @@ On February 15, 1912, the Titanic sank in the North Atlantic ocean after strikin
 > Of the 2,240 passengers and crew on board, more than 1,500 lost their lives in the disaster. . . . 
 [HISTORY.COM](https://www.history.com/topics/early-20th-century-us/titanic) EDITORS UPDATED: MARCH 12, 2024 | ORIGINAL: NOVEMBER 9, 2009 
 
-For $891$ passengers aboard, the vollowing variables were record.
+For 891 passengers aboard, the following variables were record.
 
 |     | Variable      | Description                                                        | Typw      |
 |---- |---------------|--------------------------------------------------------------------|-----------|
