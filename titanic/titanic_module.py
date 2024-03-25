@@ -1,4 +1,5 @@
 import numpy as np
+
 def age_map(x: int) -> str:
     """
     Returns the age group of a particular passenger
@@ -11,20 +12,29 @@ def age_map(x: int) -> str:
     age_group [str] : The age group based on the given age.
     """
     age_group = ""
+    x = int(x)
     
     if x < 0:
         raise ValueError(f"Invalid Argument { x } in func: ")
     
-    if x in np.arange(0, 18):
+    if x in np.arange(0, 10):
         age_group = "chidren"
-    elif x in np.arange(18, 45):
+    elif x in np.arange(10, 18):
+        age_group = "adolescent "
+    elif x in np.arange(18, 25):
         age_group = "youth"
-    elif x in np.arange(45, 65):
+    elif x in np.arange(25, 35):
+        age_group = "young adult"
+    elif x in np.arange(35, 50):
         age_group = "adult"
-    elif x in np.arange(65, 120):
-        age_group = "old age"
+    elif x in np.arange(50, 65):
+        age_group = "older adult"
+    elif x >= 65:
+        age_group = "Old Age"
     else:
         raise ValueError(f"Invalid Argument { x } in func: ")
     return age_group
+
+    
     
     
