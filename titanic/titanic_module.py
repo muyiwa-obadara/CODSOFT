@@ -14,9 +14,9 @@ def age_map(x: int) -> str:
     age_group = ""
     x = int(x)
     
-    if x < 0:
+    if x < -1:
         raise ValueError(f"Invalid Argument { x } in func: ")
-    
+
     if x in np.arange(0, 10):
         age_group = "chidren"
     elif x in np.arange(10, 18):
@@ -31,6 +31,8 @@ def age_map(x: int) -> str:
         age_group = "older adult"
     elif x >= 65:
         age_group = "Old Age"
+    elif x == -1:
+        age_group = "not available"
     else:
         raise ValueError(f"Invalid Argument { x } in func: ")
     return age_group

@@ -27,3 +27,17 @@ For 891 passengers aboard, the following variables were record.
 `str` : String.
 ___
 In this project, a model was developed to predict the survival status of a passenger based on other attributes listed above.
+
+For the data, a new column called `AgeCat` was created according to the followinng table.
+As this is a binary classification problem, it is also impoortant to see if there is a relationship between the change of a passenger to survive and their age. Mapping the ages into categories.
+
+The values of the age attribute are grouped as dipicted in the table below.
+| Range        | Age Group   |
+| -------------|-------------|
+| 0 - 19       | chidren     |
+| 10 - 17      | adolescent  |
+| 18 - 24      | youth       |
+| 25 - 34      | young adult |
+| 35 - 49      | adult       |
+| 50 - 64      | older adult |
+| 65 and above |  Old Age    | 
